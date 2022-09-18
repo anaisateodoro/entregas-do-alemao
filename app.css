@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*{
+    font-family: 'Crete Round', serif; 
+}
+
+body { /*Tirar o seletor curinga para não ficar problemas html */
+    margin:0;
+    padding:0;
+}
+
+.navPrincipal{
+    width: 100%;
+    height: 113px;
+    background:#000;     
+}
+
+.navPrincipal ul{
+    float: left;
+    margin:2;
+}
+
+.navPrincipal ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+}
+
+.navPrincipal ul li a{
+  color:#F0A952;
+  font-family: 'Crete Round', sans-serif;
+  text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 10px 10px;
+}
+
+.navPrincipal ul li a:hover{
+background: url("./img/caneca-de-cerveja.png") no-repeat center;
+background-size: 70px;
+}
+
+.navPrincipal .logoNav{
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+
+}
+/*Home*/
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*banner*/
+.carousel{
+    text-align: center;
+   
+
+}
+
+
+/*Footer*/
+
+.rodape{
+    width: 100%;
+    height: 50px;
+    background:  #F0A952;
+    position: absolute;
+    bottom:0;
+    padding: 10px;
+}
+
+.rodape copy {
+    padding-left: 25px;
+}
+
+.rodape a{
+    float: right;
+    padding-right: 25px;
+}
+
+.rodape .copy, .rodape a{
+    font-size: 14px;
+    
+}
